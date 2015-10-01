@@ -3,9 +3,11 @@
 <head>
   <meta charset="utf-8"/>
   <title>网站即将发布!</title>
+  <link type="text/css" rel="stylesheet" href="borders/borders.css"/>
+  <link type="text/css" rel="stylesheet" href="colors.css"/>
   <style media="all">
     body{
-      background-color: hsl(21, 74%, 58%);
+      background-color: #2196f3;
     }
 
     h1{
@@ -13,76 +15,40 @@
       color: #FFF;
       font-weight: bolder;
       margin-top: 10%;
-      margin-left: 20%;
+      margin-left: 15%;
     }
 
     h3{
-      margin-left: 20%;
+      margin-left: 15%;
     }
-/**button**/
-body
-{
-  padding: 50px;
-}
 
-.animate
-{
-  transition: all 0.1s;
-  -webkit-transition: all 0.1s;
-}
+    .button-borderd{
+        display: inline-block;
+        margin: 10px;
+        padding: 10px;
+        text-decoration: none;
+        /*background-color: #fff;*/
+        box-shadow: 0px 2px 9px 2px #666666;
+        transition: 0.3s;
+    }
 
-.action-button
-{
-  position: relative;
-  padding: 10px 40px;
-  margin: 0px 10px 10px 0px;
-  float: left;
-  border-radius: 10px;
-  font-family: 'Pacifico', cursive;
-  font-size: 25px;
-  color: #FFF;
-  text-decoration: none;
-}
+    .button-borderd:hover{
+        text-decoration: none;
+        box-shadow: 0px 2px 14px 3px #666666;
+        transform: translate(0px,-1px);
+    }
 
-.blue
-{
-  background-color: #3498DB;
-  border-bottom: 5px solid #2980B9;
-  text-shadow: 0px -2px #2980B9;
-}
+    .button-borderd:active{
+        text-decoration: none;
+        box-shadow: 0px 0px 3px 1px #666666;
+        transform: translate(0px,3px);
+    }
 
-.red
-{
-  background-color: #E74C3C;
-  border-bottom: 5px solid #BD3E31;
-  text-shadow: 0px -2px #BD3E31;
-}
-
-.green
-{
-  background-color: #82BF56;
-  border-bottom: 5px solid #669644;
-  text-shadow: 0px -2px #669644;
-}
-
-.yellow
-{
-  background-color: #F2CF66;
-  border-bottom: 5px solid #D1B358;
-  text-shadow: 0px -2px #D1B358;
-}
-
-.action-button:active
-{
-  transform: translate(0px,5px);
-  -webkit-transform: translate(0px,5px);
-  border-bottom: 1px solid;
-}
-/**button**/
   </style>
 </head>
 <body>
-  <h1>网站即将在暑假发布, 敬请期待!</h1>
-  <h3><a href="https://musamdu.tk" class="action-button shadow animate green">去设计者: 杜木 的网站</a></h3>
+  <h1>网站已经进入最后的开发阶段, 敬请期待!</h1>
+  <h3><a href="https://musamdu.tk" class="button-borderd border-amber bg-amber fg-white">去设计者: 杜木 的网站</a></h3>
+  <h3><a href="home.html" class="button-borderd border-green bg-green fg-white">不管完成没完成，先去满足一下饥渴的好奇心&nbsp;&gt;</a></h3>
 </body>
 </html>
