@@ -2,118 +2,138 @@
   border-style: solid;
   border-width: 10px;
   border-image: url(red.png) 10 repeat;
+  background-color: #F44336;
 }
 
 .border-pink{
   border-style: solid;
   border-width: 10px;
   border-image: url(pink.png) 10 repeat;
+  background-color: #E91E63;
 }
 
 .border-purple{
   border-style: solid;
   border-width: 10px;
   border-image: url(purple.png) 10 repeat;
+  background-color: #9C27B0;
 }
 
 .border-deeppurple{
   border-style: solid;
   border-width: 10px;
   border-image: url(deeppurple.png) 10 repeat;
+  background-color: #673AB7;
 }
 
 .border-indigo{
   border-style: solid;
   border-width: 10px;
   border-image: url(indigo.png) 10 repeat;
+  background-color: #3F51B5;
 }
 
 .border-blue{
   border-style: solid;
   border-width: 10px;
   border-image: url(blue.png) 10 repeat;
+  background-color: #2196F3;
 }
 
 .border-lightblue{
   border-style: solid;
   border-width: 10px;
   border-image: url(lightblue.png) 10 repeat;
+  background-color: #03A9F4;
 }
 
 .border-cyan{
   border-style: solid;
   border-width: 10px;
   border-image: url(cyan.png) 10 repeat;
+  background-color: #00BCD4;
 }
 
 .border-teal{
   border-style: solid;
   border-width: 10px;
   border-image: url(teal.png) 10 repeat;
+  background-color: #009688;
 }
 
 .border-green{
   border-style: solid;
   border-width: 10px;
   border-image: url(green.png) 10 repeat;
+  background-color: #4CAF50;
 }
 
 .border-lightgreen{
   border-style: solid;
   border-width: 10px;
   border-image: url(lightgreen.png) 10 repeat;
+  background-color: #8BC34A;
 }
 
 .border-lime{
   border-style: solid;
   border-width: 10px;
   border-image: url(lime.png) 10 repeat;
+  background-color: #CDDC39;
 }
 
 .border-yellow{
   border-style: solid;
   border-width: 10px;
   border-image: url(yellow.png) 10 repeat;
+  background-color: #FFEB3B;
 }
 
 .border-amber{
   border-style: solid;
   border-width: 10px;
   border-image: url(amber.png) 10 repeat;
+  background-color: #FFC107;
 }
 
 .border-orange{
   border-style: solid;
   border-width: 10px;
   border-image: url(orange.png) 10 repeat;
+  background-color: #FF9800;
 }
 
 .border-deeporange{
   border-style: solid;
   border-width: 10px;
   border-image: url(deeporange.png) 10 repeat;
+  background-color: #FF5722;
 }
 
 .border-brown{
   border-style: solid;
   border-width: 10px;
   border-image: url(brown.png) 10 repeat;
+  background-color: #795548;
 }
 
 .border-grey{
   border-style: solid;
   border-width: 10px;
   border-image: url(grey.png) 10 repeat;
+  background-color: #9E9E9E;
 }
 
 .border-bluegrey{
   border-style: solid;
   border-width: 10px;
   border-image: url(bluegrey.png) 10 repeat;
+  background-color: #607D8B;
 }
 
 .border-black{
   border-style: solid;
   border-width: 10px;
   border-image: url(black.png) 10 repeat;
+  background-color: #000;
 }
